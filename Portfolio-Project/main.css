@@ -84,3 +84,27 @@ a {
     display: flex;
     margin-right: 2rem;
 }
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
+.nav .nav-list .nav-item {
+  margin: 0 1.5rem;
+}
+
+.nav .nav-list .nav-item a {
+  padding: 2rem;
+  font-size: 2.3rem;
+  display: inline-block;
+}
+
+.nav .nav-list .nav-item a:hover {
+  color: var(--myRed);
+}
