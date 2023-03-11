@@ -1,0 +1,17 @@
+:root {
+    --myWhite: #fff;
+    --myRed: #fc1703;
+    --myBlue: #0384fc;
+    --myGray: #303841;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
