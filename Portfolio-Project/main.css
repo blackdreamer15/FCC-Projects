@@ -108,3 +108,29 @@ a {
 .nav .nav-list .nav-item a:hover {
   color: var(--myRed);
 }
+
+/* Welcome section */
+
+.welcome-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: var(--myWhite);
+  background-color: rgb(0, 0, 0);
+  transition: background 0.5s ease-in-out;
+  width: 100%;
+  height: 100vh;
+}
+
+.welcome-section p {
+  font-size: 3rem;
+  font-weight: 900;
+  font-style: italic;
+  color: var(--myRed);
+  opacity: 0.7;
+}
+
+#special {
+  color: var(--myBlue);
+}
