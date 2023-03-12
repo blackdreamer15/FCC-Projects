@@ -262,3 +262,30 @@ code {
 .contact-details:hover {
   transform: translateY(8px);
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-top: 7px solid var(--myRed);
+  background: var(--myGray);
+  color: var(--myWhite);
+  font-weight: 500;
+}
+
+footer > p {
+  margin: 2rem;
+}
+
+footer i {
+  vertical-align: middle;
+}
+
+@media (max-width: 28.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
