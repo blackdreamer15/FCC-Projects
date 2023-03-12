@@ -134,3 +134,24 @@ a {
 #special {
   color: var(--myBlue);
 }
+
+/*---------PROJECTS SECTION-------*/
+
+.projects-section {
+  text-align: center;
+  padding: 8rem 4rem;
+}
+
+.projects-section-header {
+  max-width: 640px;
+  margin: 0 auto 8rem;
+  border-bottom: 0.3rem solid var(--myRed);
+  
+}
+
+@media (max-width: 28.75em) {
+  .projects-section-header {
+    font-size: 4rem;
+  }
+}
+
