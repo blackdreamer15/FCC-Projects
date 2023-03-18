@@ -126,9 +126,9 @@
                 </li>
               </ul>
             </article>
-          </section>
+        </section>
 
-          <section class="main-section" id="javascript_and_java">
+        <section class="main-section" id="javascript_and_java">
             <header>JavaScript and Java</header>
             <article>
               <p>
@@ -141,9 +141,9 @@
                 JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.
               </p>
             </article>
-          </section>
+        </section>
 
-          <section class="main-section" id="hello_world">
+        <section class="main-section" id="hello_world">
             <header>Hello world</header>
             <article>
               <p>
@@ -157,9 +157,9 @@
                 Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
               </p>
             </article>
-          </section>
+        </section>
 
-          <section class="main-section" id="variables">
+        <section class="main-section" id="variables">
             <header>Variables</header>
             <article>
               <p>
@@ -172,9 +172,9 @@
                 You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.
               </p>
             </article>
-          </section>
+        </section>
 
-          <section class="main-section" id="declaring_variables">
+        <section class="main-section" id="declaring_variables">
             <header>Declaring variables</header>
             <article>
               <p>
@@ -207,9 +207,9 @@
                 This syntax can be used to declare a block scope local variable. See Variable scope below.
               </p>
             </article>
-          </section>
+        </section>
 
-          <section class="main-section" id="variable_scope">
+        <section class="main-section" id="variable_scope">
             <header>Variable scope</header>
             <article>
               <p>
@@ -227,7 +227,19 @@
                 if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined
               </code>
             </article>
-          </section>
+        </section>
+
+        <section class="main-section" id="global_variables">
+            <header>Global variables</header>
+            <article>
+              <p>
+                Global variables are in fact properties of the global object. In web pages the global object is window, so you can set and access global variables using the window.variable syntax.
+              </p>
+              <p>
+                Consequently, you can access global variables declared in one window or frame from another window or frame by specifying the window or frame name. For example, if a variable called phoneNumber is declared in a document, you can refer to this variable from an iframe as parent.phoneNumber.
+              </p>
+            </article>
+        </section>
     </main>
 </body>
 </html>
