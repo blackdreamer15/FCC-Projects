@@ -84,3 +84,12 @@ a {
   color: #000;
   text-decoration: none;
 }
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 14rem auto /*add bottom*/;
+}
