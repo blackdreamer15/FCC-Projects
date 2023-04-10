@@ -62,3 +62,25 @@ div.logo img {
   text-align: center;
   margin-left: 2rem;
 }
+
+header nav#nav-bar {
+  width: 40vw;
+}
+
+header nav#nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
