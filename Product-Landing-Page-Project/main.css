@@ -132,3 +132,49 @@ input[type="submit"] {
 input[type="submit"]:hover {
   transform: scale(1.2);
 }
+
+.grid {
+  display: flex;
+  margin: 5rem auto 5rem;
+}
+
+#features {
+  margin: 3rem auto 6rem;
+  width: 90%;
+}
+
+#features .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 11.5rem;
+  width: 20vw;
+  color: darkorange;
+}
+
+@media (max-width: 550px) {
+  #features .icon {
+    display: none;
+  }
+}
+
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  margin: 2rem auto 2rem;
+  height: 12.5rem;
+  width: 60vw;
+  line-height: 4.5rem;
+}
+
+@media (max-width: 550px) {
+  #features .desc {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 15rem;
+  }
+}
