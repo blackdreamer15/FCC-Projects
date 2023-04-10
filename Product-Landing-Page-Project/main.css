@@ -178,3 +178,17 @@ input[type="submit"]:hover {
     height: 15rem;
   }
 }
+
+#how-it-works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+#how-it-works > iframe {
+  height: 47rem;
+  width: 60vw;
+  margin: auto;
+}
