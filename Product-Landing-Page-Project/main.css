@@ -192,3 +192,75 @@ input[type="submit"]:hover {
   width: 60vw;
   margin: auto;
 }
+
+#pricing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  margin-top: 8rem;
+  width: 65vw;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 2rem;
+  border: 2px solid black;
+  border-radius: 2rem;
+}
+
+.product > .level {
+  background-color: darkorange;
+  border-radius: 2rem 2rem 0 0;
+  color: black;
+  padding: 1.5rem 0;
+  width: 100%;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+.product > h2 {
+  margin-top: 1.5rem;
+}
+
+.product > ol {
+  margin: 1.5rem 0;
+}
+
+.product > ol > li {
+  padding: .5rem 0;
+}
+
+.product > button {
+  border: 2px solid #f1b40f;
+  border-radius: .5rem;
+  padding: .4rem 2.5rem;
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  background-color: #f1b40f;
+  font-weight: 100;
+}
+
+.product > button:hover, .product:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
