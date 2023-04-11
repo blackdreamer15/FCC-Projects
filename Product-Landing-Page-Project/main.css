@@ -264,3 +264,31 @@ input[type="submit"]:hover {
     margin-bottom: 10px;
   }
 }
+
+
+footer {
+    margin-top: 3rem;
+    background-color: #bbb;
+    padding: 2rem;
+    width: 90vw;
+    margin: 0 auto;
+    border-radius: 1em 1em 0 0;
+}
+  
+footer ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+  
+footer ul li {
+    padding: 0 1rem;
+}
+  
+footer span {
+    margin-left: 63vw;
+    margin-top: 2rem;
+    font-size: 0.7em;
+    text-align: right;
+    color: #444;
+}
