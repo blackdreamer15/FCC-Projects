@@ -50,3 +50,30 @@ section#container {
   align-items: center;
   justify-content: center;
 }
+
+form {
+  background: rgba(27, 27, 50, 0.6);
+  border: 1px solid transparent;
+  padding: 3rem 5rem;
+  margin: auto;
+  width: 70%;
+  border-radius: 1.2rem;
+}
+
+form p {
+  margin: .2rem auto .7rem;
+}
+
+div.form-group {
+  margin: 2rem auto;
+  padding: 0.5rem auto;
+  line-height: 3rem;
+  font-size: 2.15rem;
+}
+
+form:hover {
+  box-shadow: 0.2rem 0.3rem 0.5rem rgba(40, 22, 38, 0.7),
+    -0.2rem 0.3rem 0.5rem rgba(40, 22, 38, 0.7),
+    0.2rem -0.3rem 0.5rem rgba(40, 22, 38, 0.7),
+    -0.2rem -0.3rem 0.5rem rgba(40, 22, 38, 0.7);
+}
