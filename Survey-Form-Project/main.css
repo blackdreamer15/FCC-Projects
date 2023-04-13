@@ -77,3 +77,23 @@ form:hover {
     0.2rem -0.3rem 0.5rem rgba(40, 22, 38, 0.7),
     -0.2rem -0.3rem 0.5rem rgba(40, 22, 38, 0.7);
 }
+
+.input-control, select {
+  width: 100%;
+  display: block;
+  height: 4.5rem;
+  margin-top: .4rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.4rem;
+  transition: border-color 0.15s ease-in-out box-shadow 0.15s ease-in-out;
+}
+
+.input-control:focus {
+  border-color: #80bdff;
+  border-radius: 0.4rem;
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
