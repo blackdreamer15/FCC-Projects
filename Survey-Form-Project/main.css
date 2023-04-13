@@ -9,3 +9,13 @@
 html {
   font-size: 10px;
 }
+
+body {
+  background: linear-gradient(45deg, purple, rgb(40, 70, 250));
+  font-family: "Fredoka", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #f3f3f3;
+  margin: 0;
+}
