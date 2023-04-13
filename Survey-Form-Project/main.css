@@ -97,3 +97,23 @@ form:hover {
   outline: none;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
+
+button {
+  width: 100%;
+  padding: 0.8rem;
+  margin: auto;
+  display: block;
+  color: inherit;
+  background: purple;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  font-family: "Fredoka", sans-serif;
+  font-size: 1.9rem;
+  text-align: center;
+  cursor: pointer;
+  transition: height 0.4s ease-in-out;
+}
+button:hover {
+  height: 4.9rem;
+  margin: auto;
+}
