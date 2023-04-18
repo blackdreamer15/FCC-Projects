@@ -21,3 +21,30 @@ body {
     border-radius: 0.5rem;
     background: #eee;
 }
+
+h1 {
+    font-size: 4rem;
+    margin: 2rem 2rem 0.9rem;
+}
+
+figure#img-div {
+    background: #fff;
+    margin: 1.6rem 0.5rem 4rem;
+}
+
+figure#img-div img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+figure#img-div figcaption#img-caption {
+    padding: 1.5rem 1.3rem 1rem;
+    font-size: 1.2rem;
+}
+
+h3#headline {
+    text-align: center;
+    margin: 7rem 0 5rem;
+}
