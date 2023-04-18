@@ -1,8 +1,23 @@
 * {
     margin: 0;
     padding: 0;
-  }
+}
   
-  html {
+html {
     font-size: 10px;
-  }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#main {
+    margin: 3rem 1rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: #eee;
+}
