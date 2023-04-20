@@ -59,3 +59,10 @@ ul {
 li {
     margin: 1.5rem 0;
 }
+
+blockquote {
+    font-style: italic;
+    max-width: 60rem;
+    margin: 0 auto 3rem;
+    text-align: left;
+}
