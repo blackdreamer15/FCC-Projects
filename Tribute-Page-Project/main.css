@@ -73,3 +73,8 @@ a {
 a:hover {
     color: #f00;
 }
+
+h3:last-child {
+  margin: 0 3rem;
+  font-size: 1.8rem;
+}
