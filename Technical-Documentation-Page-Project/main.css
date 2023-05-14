@@ -3,17 +3,17 @@
 html, body {
     min-width: 29rem;
    width: 100%;
- }
+}
  
- html {
+html {
    font-size: 10px;
- }
+}
  
- body {
+body {
    font-size: 1.7rem;
    line-height: 1.5;
    font-family: 'Rubik', sans-serif;
- }
+}
 
 #navbar {
     position: fixed;
